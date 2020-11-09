@@ -138,6 +138,11 @@ body{
   color: white;
 }
 
+.companylinks a:active{
+  font-size: large;
+  color: black;
+  
+}
 
 
   main > img{
@@ -304,6 +309,10 @@ body{
   .companylinks{
     display: flex;
     flex-direction: row;
+  }
+  .companylinks .current{
+    color: darkred;
+    text-transform: uppercase;
   }
   .companylinks a:link, a:visited{
     color: blue;
