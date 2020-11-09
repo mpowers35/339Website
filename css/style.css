@@ -340,10 +340,7 @@ body{
   }
   
   
-  @media (prefers-reduced-motion: reduce){
-    #logo{
-      animation: none;
-    }
+  
 
   @media screen and (max-width: 500px){
     header{
