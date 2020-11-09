@@ -28,6 +28,10 @@ font-size: 40px;
     text-align: center;
     font-size: 20px;
   }
+  #holidays > h1{
+    text-align: center;
+    font-size: 40px;
+  }
   .celebrationspic{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -69,9 +73,12 @@ font-size: 40px;
   #homepage{
     text-align: center;
     font-size: 20px;
-    
   }
+  #homepage > h1{
+    text-align: center;
+    font-size: 40px;
   
+  }
 
   .companypics{
     display: grid;
@@ -183,7 +190,7 @@ main > #kellyimage2{
 
   .work{
     display: inline-block;
-    height: 410px;
+    height: 510px;
     border-style: solid;
     padding: 50px;
     background-color: #d0d0d0;
@@ -200,7 +207,7 @@ main > #kellyimage2{
 
   .life{
     display: inline-block;
-    height: 410px;
+    height: 510px;
     border-style: solid;
     padding: 50px;
     background-color: #d0d0d0;
@@ -216,7 +223,7 @@ main > #kellyimage2{
   .favorite{
     display: inline-block;
     justify-content: center;
-    height: 410px;
+    height: 510px;
     border-style: solid;
     padding: 50px;
     background-color: #d0d0d0;
@@ -238,6 +245,7 @@ main > #kellyimage2{
   background-color: #202675;
   color: white;
 }
+
 .life>header{
   text-align: center;
   margin-left: auto;
@@ -300,3 +308,10 @@ main > #kellyimage2{
     #logo{
       animation: none;
     }
+  @media(max-width: 400px){
+    .gallery-images{
+      display: block;
+      padding: 10px;
+      
+    }
+  }
