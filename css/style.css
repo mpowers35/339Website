@@ -89,11 +89,12 @@ color: black;
 
   .companypics{
     display: grid;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #202675;
     grid-gap: 20px;
     grid-template-columns: auto auto auto;
     padding: 10px;
+    padding-bottom: 5px;
   }
   
   .companypics > #teamimage1{
