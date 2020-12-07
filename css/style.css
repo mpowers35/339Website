@@ -24,7 +24,43 @@ text-decoration: underline;
 font-size: 40px;
 color: black;
 }
+/*Generated Animation*/
+@-webkit-keyframes move_logo{
+  from {width: 100px}
+  to {width: 300px}
+
+}
+
+@keyframes move_logo{
+  from {width: 100px}
+  to {width: 300px}
+
+} 
+
+#logo{
+  animation-name: move_logo;
+  animation-duration: 5s;
   
+ 
+}
+/*Flip Card Style*/
+.flip-card {
+  background-color: transparent;
+}
+.flip-card-inner{
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner{
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+
   header > img{
       width: 300px;
       height: 300px;
