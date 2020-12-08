@@ -40,6 +40,10 @@ color: black;
 .flip-card-container:hover .flip-card{
   transform: rotateY(180deg);
 }
+.flip-card-container .flip-card.flip{
+  transform: rotateY(180deg);
+}
+
 .flip-card-front{
   position: absolute;
   width: 100%;
@@ -411,6 +415,7 @@ body{
     }
     footer{
       position: relative;
+      
     }
     .companylinks{
       display: flex;
