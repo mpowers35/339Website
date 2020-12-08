@@ -41,17 +41,48 @@
     building a great company culture. Picture belowed are some of our office events with our Regional Manager, Michael Scott!
   </p>
   <div class = "celebrationspic">
-    <img id = "celebrate2" src = "imgs/diwali.jpg" alt = "Celebration">
-    <img id = "celebrate1" src = "imgs/officehappy.jpg" alt = "Celebration">
-    <img id = "celebrate3" src = "imgs/birthday.png" alt = "Celebration">
-    <img id = "celebrate4" src = "imgs/wedding.jpg" alt = "Celebration">
-    <img id = "celebrate6" src = "imgs/dundie.jpg" alt = "Celebration">
-    <img id = "celebrate5" src = "imgs/basketball.png" alt = "Celebration">
+    <div class = "flip-card-container">
+      <div class = "flip-card">
+        <div class = "flip-card-front"> <img id = "celebrate2" src = "imgs/diwali.jpg" alt = "Celebration"> </div>
+        <div class = "flip-card-back"> <p>Celebrating Diwali!</p> </div>
+      </div>
+    </div>
+
+    <div class = "flip-card-container">
+      <div class = "flip-card">
+        <div class = "flip-card-front"> <img id = "celebrate1" src = "imgs/officehappy.jpg" alt = "Celebration"> </div>
+        <div class = "flip-card-back"> <p>We love to sing here at Dunder Mifflin!</p> </div>
+      </div>
+    </div>
+    
+    
+    <div class = "flip-card-container">
+      <div class = "flip-card">
+        <div class = "flip-card-front"> <img id = "celebrate3" src = "imgs/birthday.png" alt = "Celebration"> </div>
+        <div class = "flip-card-back"> <p>Office birthdays are a must!</p> </div>
+      </div>
+    </div>
     
   </div>
 </main>
 <footer>
   <p>
-    Thank you for visiting our website! Dunder Mifflin is proud to support local businesses with their paper needs.
+    Thank you for visiting our website! Dunder Mifflin is proud to support local businesses with their paper needs. 
+    Leave your e-mail and message below to get in conatct with us!
   </p>
+
+  <div class="form">  
+    <form action="https://formspree.io/f/xeqpropw" method="POST">
+
+  <label for = "email"> Your Email: </label>
+  <input type="text" id = "email" name="useremail">
+  
+  <label for = "message"> Your Message: </label>
+  <input type = "text" id = "message" name="message" >
+
+  <button type="submit">Send</button>
+
+</form>
+</div>
+  
 </footer>
