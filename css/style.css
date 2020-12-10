@@ -40,10 +40,6 @@ color: black;
 .flip-card-container:hover .flip-card{
   transform: rotateY(180deg);
 }
-.flip-card-container .flip-card.flip{
-  transform: rotateY(180deg);
-}
-
 .flip-card-front{
   position: absolute;
   width: 100%;
@@ -78,15 +74,12 @@ color: black;
 
 } 
 
-#logo{
+#homelogo{
   animation-name: move_logo;
   animation-duration: 5s;
   
  
 }
-
-
-
 
   header > img{
       width: 300px;
@@ -152,12 +145,12 @@ color: black;
 
   .companypics{
     display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     background-color: #202675;
-    grid-gap: 20px;
-    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
     padding: 10px;
-    padding-bottom: 5px;
+   
   }
   
   .companypics > #teamimage1{
@@ -280,7 +273,7 @@ body{
     padding: 50px;
     background-color: #d0d0d0;
     color:  black;
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Helvertica", sans-serif;
   }
   
@@ -299,7 +292,7 @@ body{
     padding: 50px;
     background-color: #d0d0d0;
     color:  black;
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Helvertica", sans-serif;
   }
 
@@ -317,7 +310,7 @@ body{
     padding: 50px;
     background-color: #d0d0d0;
     color: black;
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Helvertica", sans-serif;
   }
 
@@ -360,8 +353,8 @@ body{
 
   /* Stanley Style */
   main > #stanleyimage{
-    width: 1400px;
-    height: 510px;
+    width: 500px;
+    height: 390px;
     border: solid;
     color: black;
   }
@@ -402,8 +395,18 @@ body{
     text-decoration: none;
   }
   
-  
-  
+  @media screen and (prefers-reduced-motion: reduce){
+    html{
+      scroll-behavior: auto;
+    }
+    .flip-card{
+      transition: transform none;
+    }
+    #homelogo{
+      animation: none;
+    }
+  }
+
 
   @media screen and (max-width: 500px){
     header{
@@ -415,7 +418,6 @@ body{
     }
     footer{
       position: relative;
-      
     }
     .companylinks{
       display: flex;
@@ -439,15 +441,15 @@ body{
     }
     #stanleypage > #stanleyimage{
       width: 500px;
-      height: 400px;
+      height: 500px;
     }
 
     #oscarpage{
       display: block;
     }
     #oscarpage > #oscarimage{
-      height: 525px;
-      width: 490px;
+      height: 575px;
+      width: 500px;
 
     }
 
@@ -455,7 +457,7 @@ body{
       display: block;
     }
     #pampage > #pamimage{
-      height: 525px;
+      height: 575px;
       width: 500px;
       
     }
@@ -464,7 +466,8 @@ body{
       display: block;
     }
     #kellypage > #kellyimage{
-      height: 525px;
+      display: flex;
+      height: 575px;
       width: 500px;
 
     }
