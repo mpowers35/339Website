@@ -447,7 +447,7 @@ body{
       margin: auto;
     }
     #stanleypage > #stanleyimage{
-      width: 500px;
+      width: 450px;
       height: 500px;
     }
 
@@ -455,7 +455,7 @@ body{
       display: block;
     }
     #oscarpage > #oscarimage{
-      height: 575px;
+      height: 500px;
       width: 500px;
     }
 
@@ -472,7 +472,7 @@ body{
     }
     #kellypage > #kellyimage{
       display: flex;
-      height: 575px;
+      height: 500px;
       width: 500px;
     }
 
