@@ -403,9 +403,6 @@ body{
   }
   
   @media screen and (prefers-reduced-motion: reduce){
-    html{
-      scroll-behavior: auto;
-    }
     .flip-card{
       transition: transform none;
     }
